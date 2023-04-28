@@ -1,0 +1,12 @@
+name: BortonRSE
+channels:
+  - plotly
+  - conda-forge
+dependencies:
+  - python=3.7 
+  - plotly        
+  - numpy
+  - jupyter
+  pip:
+      - grpcio
+      - grpcio-tools

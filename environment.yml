@@ -4,9 +4,10 @@ channels:
   - conda-forge
 dependencies:
   - python=3.7 
-  - plotly        
+  - plotly
   - numpy
   - jupyter
-  pip:
-      - grpcio
-      - grpcio-tools
+  - pip
+  - pip:
+    - grpcio
+    - grpcio-tools
